@@ -1,12 +1,12 @@
 from datetime import datetime
 from fastapi import APIRouter, Response
 from starlette.status import HTTP_404_NOT_FOUND
-from config.db import db
-from models.message import Message
+from ..config.db import db
+from ..models.message import Message
 from bson.objectid import ObjectId
-from schemas.message import messageEntity, messageEntities
-from schemas.user import userEntities, userEntity
-from config.message import create_content, send_message
+from ..schemas.message import messageEntity, messageEntities
+from ..schemas.user import userEntities, userEntity
+from ..config.message import create_content, send_message
 
 message_router = APIRouter()
 

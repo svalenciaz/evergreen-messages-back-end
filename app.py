@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from routes.user import user_router
-from routes.template import template_router
-from routes.message import message_router
+from .routes.user import user_router
+from .routes.template import template_router
+from .routes.message import message_router
 
 app = FastAPI(
     title="Evergreen Back End",

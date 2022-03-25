@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Response
 from starlette.status import HTTP_404_NOT_FOUND
-from config.db import db
-from models.user import User
+from ..config.db import db
+from ..models.user import User
 from bson.objectid import ObjectId
-from schemas.user import userEntity, userEntities
+from ..schemas.user import userEntity, userEntities
 
 user_router = APIRouter()
 
