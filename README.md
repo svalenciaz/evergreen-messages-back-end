@@ -9,14 +9,17 @@ pip install virtualenv
 virtualenv -p pyhton env
 ~~~
 3. Activate your virtual environment
+
     For Windows
-~~~
-source env/Scripts/activate
-~~~
+    ~~~
+    source env/Scripts/activate
+    ~~~
+
     For Linux
-~~~
-source env/bin/activate
-~~~
+
+    ~~~
+    source env/bin/activate
+    ~~~
 
 4. Install the requirements
 ~~~
