@@ -28,6 +28,6 @@ pip install -r requirements.txt
 
 5. Run the project
 ~~~
-uvicorn app:app --reload --port {your_port}
+uvicorn app.app:app --reload --port {your_port}
 ~~~
 By default it will be launched in port 8000
