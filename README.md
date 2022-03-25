@@ -6,7 +6,7 @@ For run this project:
 2. Create a virtual environment for Python
 ~~~
 pip install virtualenv
-virtualenv -p pyhton env
+virtualenv -p python env
 ~~~
 3. Activate your virtual environment
 
