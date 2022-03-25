@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  app:
+    build: .
+    environment:
+      - MONGO_URI=${MONGO_URI}
+      - MONGO_DB=${MONGO_DB}
+      - MESSAGE_API_BASE=${MESSAGE_API_BASE}
+      - MESSAGE_API=${MESSAGE_API}
+      - MESSAGE_BEARER=${MESSAGE_BEARER}
+    ports:
+      - "80:80"
