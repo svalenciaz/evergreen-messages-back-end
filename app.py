@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from routes.user import user_router
+from routes.template import template_router
+from routes.message import message_router
 
 app = FastAPI(
     title="Evergreen Back End",
@@ -8,3 +10,5 @@ app = FastAPI(
     )
 
 app.include_router(user_router)
+app.include_router(template_router)
+app.include_router(message_router)
